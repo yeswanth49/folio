@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import localFont from "next/font/local";
 // REMOVE: import './globals.css'; // Global styles only in root layout
 
@@ -7,13 +7,6 @@ import { Header } from '../header';
 import Footer from '../components/footer';
 import { ThemeProvider } from 'next-themes'; // Keep if needed here
 
-// Keep viewport and metadata exports - they merge with root layout
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  themeColor: '#ffffff',
-  // Add or override other viewport properties here
-};
 
 export const metadata: Metadata = {
   title: 'Portfolio - Your Name', // Change title for this route
