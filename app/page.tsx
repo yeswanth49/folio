@@ -4,8 +4,7 @@ import Particles from "./components/particles";
 
 const navigation = [
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Blogs", href: "/blog" },
-  { name: "Contact", href: "/contact" },
+  { name: "Blogs", href: "https://yesh.bearblog.dev/blog/" },
 ];
 
 export default function Home() {

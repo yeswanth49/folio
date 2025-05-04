@@ -150,7 +150,9 @@ export default function Personal() {
         >
           <div className="flex-1">
             <p className="text-zinc-600 dark:text-zinc-400">
-            i am second year student, studying cs <br />mostly interested in machine learning/deep learning concepts
+            i am second year student, studying cs <br />
+            mostly interested in machine learning/deep learning concepts <br />
+            good at everything, great at nothing.
             </p>
           </div>
         </motion.section>
@@ -226,7 +228,7 @@ export default function Personal() {
         </motion.section>
 
         {/* Section 4: Blog */}
-        <motion.section
+        {/* <motion.section
           variants={VARIANTS_SECTION}
           transition={TRANSITION_SECTION}
         >
@@ -262,7 +264,7 @@ export default function Personal() {
               ))}
             </AnimatedBackground>
           </div>
-        </motion.section>
+        </motion.section> */}
 
         {/* Section 5: Connect */}
         <motion.section
